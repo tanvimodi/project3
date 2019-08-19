@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:text="See all Events"
+            android:layout_width="match_parent"
+            android:background="#009688"
+            android:layout_height="wrap_content" android:id="@+id/see_all_events_button"/>
+    <Button
+            android:text="Search Events by Event Name"
+            android:layout_width="match_parent"
+            android:background="#009688"
+            android:layout_height="wrap_content" android:id="@+id/search_events_date_button"/>
+    <Button
+            android:text="Search Events by Venue ID"
+            android:layout_width="match_parent"
+            android:background="#009688"
+            android:layout_height="wrap_content" android:id="@+id/search_events_venue_button"/>
+    <Button
+            android:text="See your Reservations"
+            android:layout_width="match_parent"
+            android:background="#009688"
+            android:layout_height="wrap_content" android:id="@+id/see_your_reservations_button"/>
+    <Button
+            android:text="Logout"
+            android:layout_width="match_parent"
+            android:background="#009688"
+            android:layout_height="wrap_content" android:id="@+id/logout"/>
+</LinearLayout>

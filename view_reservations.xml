@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="#009688"
+            android:text="Enter Email"
+            android:ems="10"
+            android:id="@+id/six"/>
+
+    <Button
+            android:text="View all your Reservations"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:id="@+id/abcde"
+            android:layout_marginBottom="104dp"
+            android:background="#009688"
+            android:layout_marginEnd="8dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="313dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="#009688"
+            android:text=" "
+            android:id="@+id/textview6"/>
+
+
+    <Button
+            android:text="Go back"
+            android:layout_width="432dp"
+            android:layout_height="36dp"
+            android:id="@+id/back"
+            android:layout_marginBottom="104dp"
+            android:background="#009688"
+            android:layout_marginEnd="8dp"/>
+
+</LinearLayout>
